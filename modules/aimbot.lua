@@ -148,3 +148,5 @@ __aimbot.OnLoop = function(deltaTime : number)
 		__aimbot:LockCameraTo(target[__aimbot.Settings.__aimPart].Position + __aimbot:GetPrediction(target))
 	end
 end
+
+return __aimbot
