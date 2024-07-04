@@ -62,3 +62,5 @@ function __esp:SetSetting(settingName : string, settingValue : any)
 	end
 	__esp.Settings[settingName] = settingValue
 end
+
+return __esp
