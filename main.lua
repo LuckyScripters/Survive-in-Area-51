@@ -6,5 +6,6 @@ for index, value in game.Players.LocalPlayer.Backpack:GetChildren() do
         setting.AmmoPerClip = math.huge
         setting.ReloadTime = 0
         setting.FireRate = 0
+        setting.CameraShakingEnabled = false
     end
 end
